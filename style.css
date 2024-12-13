@@ -1,0 +1,273 @@
+#home{ 
+    background-image: url(https://i.pinimg.com/736x/22/b5/57/22b5573467df75ae860d43a451d43ddd.jpg);
+    background-repeat: repeat;
+     background-size: cover;
+}
+
+
+#link1{
+    border: 7px  orange;
+    margin:125px; 
+    padding: 50px; 
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwwW8C0IYUvX51aTf3ncUAFtD8huxFSvzRAQ&s) ;
+    background-size:contain ;  
+    background-repeat: no-repeat;
+    color:rgba(255, 255, 255, 0);
+    border-radius: 25px 25px;
+}
+#link2{
+    border: 7px  orange;
+    margin:125px; 
+    padding: 50px; 
+    background-image: url(https://play-lh.googleusercontent.com/zPxLgj5nvl20ahJV7aFC6S5mD8kii5CEEDj25j1P9CYAfXL9sdDuO-8eES0r4DhJHrU) ;
+    background-size:contain ;  
+    background-repeat: no-repeat;
+    color:rgba(255, 255, 255, 0);
+    border-radius: 25px 25px;
+}
+
+#link3{
+    border: 7px  orange;
+    margin:125px; 
+    padding: 50px; 
+    background-image:url(wherestrib.png);
+    background-size:contain ;  
+    background-repeat: no-repeat;
+    color:rgba(255, 255, 255, 0);
+    border-radius: 25px 25px;
+    
+}
+#link4{
+    border: 7px  orange;
+    margin:125px; 
+    padding: 50px; 
+    background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*hPhzeFD3htF7ly1AMmAVbw.png) ;
+    background-size:contain ;  
+    background-repeat: no-repeat;
+    color:rgba(255, 255, 255, 0);
+    border-radius: 25px 25px;
+}
+#link5{
+    border: 7px  orange;
+    margin:125px; 
+    padding: 50px; 
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjdlOInIj54_3SlKbE1BmWmXWxRrY1xh150g&s) ;
+    background-size:contain ;  
+    background-repeat: no-repeat;
+    color:rgba(255, 255, 255, 0);
+    border-radius: 25px 25px;
+}
+
+ body {       
+    display: flex; 
+    justify-content: center; 
+    align-items: center;   
+    height: 100vh;    
+    margin: 0;    
+    background-color: whitesmoke;    
+    font-family: Arial, sans-serif;
+  }
+        /*chatgpt helped on .grid */
+         
+.grid {    
+    display: grid;   
+    grid-template-columns: repeat(3, 100px);  
+    grid-gap: 10px;
+}
+       
+.cell {
+    width: 100px;
+    height: 100px;
+    background: lightgray;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    font-size: 48px;
+    cursor: pointer;
+    border: 2px solid black;  
+}
+      
+.cell:hover {   
+    background: gray;  
+}
+
+ 
+body {      
+    text-align: center; 
+    font-family: Arial, sans-serif;
+}
+        
+        
+#result {       
+    margin-top: 20px;
+}
+        
+      
+.correct {
+    color: green;
+}
+        
+       
+.incorrect {       
+    color: red;
+}
+
+h2 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: smaller;
+}
+#Three{
+    background-image: url(https://i.pinimg.com/originals/c1/b5/06/c1b506afca59ec2eedba5372a9bc1e47.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.button-container{
+    position: absolute;
+    bottom:20px ;
+    left: 135px;
+    transform: translate(-50%, -50%); 
+}
+button:hover {
+    background-color: #0057b300;
+}
+#button1 {
+    padding: 10px, 20px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-image: url(https://media.licdn.com/dms/image/v2/C4E03AQFtvqOK0b2MGA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517287227897?e=2147483647&v=beta&t=o-CPCpZTICjhvjSglqh2B2-mjUBOtS1WMj3wrLP6yLk);
+    border: none;
+    border-radius: 5px;
+    cursor: default;
+    background-size:contain ;  
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+#waldo{
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    font-size: medium;
+    color: rgb(255, 30, 0);
+    background-color: rgb(255, 255, 255);
+}
+#linkO{
+    position: absolute;
+    top: 1.5%;
+    left: 60%;
+    color: rgb(255, 30, 0);
+    background-color: rgb(255, 255, 255);
+}
+#button2{
+    padding: 10px, 20px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 255, 0);
+    border: none;
+    border-radius: 5px;
+    cursor:default;
+    width: 100%;
+    height: 100%;
+}
+
+button:hover {
+    background-color: #0057b300;
+}
+
+.button-Screen{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: rgba(0, 0, 255, 0); 
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0);
+    cursor: default;
+}
+
+#rock{
+    background-image: url(https://m.media-amazon.com/images/I/61W8BVTF10L._AC_UF894,1000_QL80_.jpg);
+    width: 100px; 
+    height: 100px;
+    border: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#paper{
+    background-image: url(https://images.desenio.com/zoom/18010-8papertexture50x70.jpg);
+    width: 100px; 
+    height: 100px;
+    border: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#scissor{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb9iyWnYR7FuWsfv9o9kMkQd4UVSB2itOzcQ&s);
+    width: 100px; 
+    height: 100px;
+    border: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#five {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#moving{
+    margin-top: 50px;
+}
+
+#duck {
+    width: 50px;
+    height: 50px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRerFV3tckrc894WpGWud0jryesURL5giLpXA&s);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+}
+
+#hunterS{
+    margin-top: 20px;
+    font-size: 20px;
+}
+#five{
+    background-image:url(https://midwesthunt.com/wp-content/uploads/2019/03/website-photo1.jpg) ;
+    background-repeat: repeat;
+    background-size: cover;
+}
+#four{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH5GUiW3cw-I9mzsiX-f9FpC5CWANN8AcbRJnOgAN3d3Xpq3IEW2WCMU7nBBNXOjJBVyA&usqp=CAU);
+    background-repeat: repeat;
+    background-size: cover;
+}
+#two{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLRiwOoUTujslMkiGNYTkZs5tasKUheeZXgQ&s);
+    background-repeat: repeat;
+    background-size: cover;
+}
